@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="an" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="125.0" prefWidth="489.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.AddQQ">
+   <children>
+      <TextField fx:id="qqText" layoutX="105.0" layoutY="48.0" />
+      <Label layoutX="22.0" layoutY="45.0" prefHeight="36.0" prefWidth="73.0" text="QQ号" />
+      <Button fx:id="addFriend" layoutX="363.0" layoutY="48.0" mnemonicParsing="false" onMouseClicked="#addButton" style="-fx-background-radius: 1000;" text="添加" />
+   </children>
+</AnchorPane>

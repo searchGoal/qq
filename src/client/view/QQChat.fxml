@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="ChatPanel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.Chat">
+   <children>
+      <Label fx:id="sendFile" layoutX="22.0" layoutY="277.0" onMouseClicked="#addFileListener" text="文件" />
+      <Label fx:id="voice" layoutX="113.0" layoutY="277.0" onMouseClicked="#addAudio" text="语音" />
+      <Label fx:id="picture" layoutX="220.0" layoutY="277.0" onMouseClicked="#addListener" text="图片" />
+      <TextArea fx:id="sendTextArea" layoutY="315.0" prefHeight="72.0" prefWidth="500.0" style="-fx-background-radius: 100;" />
+      <Button fx:id="sendButton" layoutX="500.0" layoutY="329.0" mnemonicParsing="false" onMouseClicked="#sendMessage" prefHeight="44.0" prefWidth="95.0" style="-fx-background-radius: 1000;" text="发送" />
+      <ListView fx:id="showListView" layoutX="-2.0" layoutY="1.0" prefHeight="260.0" prefWidth="600.0" />
+   </children>
+</AnchorPane>

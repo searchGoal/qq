@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="controllerList" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="439.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.List">
+   <children>
+      <ImageView fx:id="bground" fitHeight="181.0" fitWidth="439.0" layoutX="1.0" pickOnBounds="true">
+         <image>
+            <Image url="file:///D:/idea/QQ/libr/ListBg4.jpg" />
+         </image></ImageView>
+      <TextField fx:id="ListSign" layoutX="220.0" layoutY="110.0" onKeyPressed="#ReleaseSign" opacity="0.69" promptText="QQ签名" />
+      <TextField fx:id="ListName" layoutX="220.0" layoutY="61.0" onKeyPressed="#ReleaseName" opacity="0.41" prefHeight="30.0" prefWidth="118.0" promptText="QQ名称" />
+      <Button fx:id="ListFriend" layoutX="1.0" layoutY="182.0" mnemonicParsing="false" onMouseClicked="#friend" prefHeight="36.0" prefWidth="202.0" text="好友" />
+      <Button fx:id="publicChatButton" layoutX="208.0" layoutY="182.0" mnemonicParsing="false" onMouseClicked="#publicChat" prefHeight="36.0" prefWidth="225.0" text="群聊" />
+      <ListView fx:id="listView" layoutX="1.0" layoutY="218.0" onMouseClicked="#ListToChat" prefHeight="519.0" prefWidth="439.0" />
+      <ImageView fx:id="head" fitHeight="134.0" fitWidth="172.0" layoutX="23.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="addFriend" layoutX="367.0" layoutY="24.0" onMouseClicked="#addFriend" prefHeight="20.0" prefWidth="65.0" text="添加好友" />
+   </children>
+</AnchorPane>

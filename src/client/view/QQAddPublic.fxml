@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="an" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="473.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.AddPublic">
+   <children>
+      <Label fx:id="label" layoutX="34.0" layoutY="75.0" prefHeight="33.0" prefWidth="68.0" text="输入群号" />
+      <TextField fx:id="getPublic" layoutX="123.0" layoutY="77.0" />
+      <Button fx:id="add" layoutX="369.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#addButton" text="添加" />
+   </children>
+</AnchorPane>
